@@ -73,6 +73,12 @@ $(document).ready(function() {
 		nav.toggleClass('open');
 	});
     
+    $('#catelogue').affix({
+        offset:{
+            top:150
+        }
+    })
+    
     
 });
 
